@@ -2,6 +2,8 @@
 -*- coding: UTF-8 -*-
 """
 
+
+#list to test the algorithms
 liste = [3,2,9,6,4,235235,235,357135,568,23562,246,5468,246,2635782,2356246,458,1222,4,5,7,83,233,7,3]
 
 def quicksort(liste):
@@ -31,7 +33,7 @@ def insertionsort(liste):
 		element = unsorted[0]
 		del unsorted[0]
 		for j in range(0, len(sortiert)):
-			vgl = sorted[j]
+			vgl = sortiert[j]
 			if element <= vgl:
 				sortiert.insert(j, element)
 				break
